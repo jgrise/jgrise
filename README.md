@@ -3,8 +3,7 @@
 - 🌱 I’m currently learning the human cost of automation and globalization
 - 💞️ I’m looking to collaborate on data lake architecture and natural language processing
 - 📫 How to reach me @jgrise | 
-https://www.linkedin.com/in/james-grise | 
-https://twitter.com/jgrise | 
+https://www.linkedin.com/in/james-grise 
 
 <!---
 jgrise/jgrise is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
