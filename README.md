@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @jgrise
+- 👋 Hi, I’m @jgrise 26 yrs in the insustry writing and managing software projects for financial services
 - 👀 I’m interested in solutions architecture and pipeline automation
 - 🌱 I’m currently learning the human cost of automation and globalization
 - 💞️ I’m looking to collaborate on data lake architecture and natural language processing
