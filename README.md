@@ -1,85 +1,68 @@
-# James Grise
+# James R. Grise
 
-### Technology Leadership · Platform Modernization · Fintech · AI
+### Technology Leadership · Platform Modernization · Fintech Architecture · AI & Automation
 
-I design and modernize technology platforms where **architecture, data, automation and business operations intersect**.
+I’m a technology leader and hands-on architect focused on modernizing consequential systems — especially where **data integrity, security, compliance, automation, and operational reliability** matter.
 
-My work focuses on turning established systems into secure, maintainable platforms — modern APIs, automated workflows, intelligent search, data architecture and cloud-ready services — while preserving the operational knowledge that made those systems valuable in the first place.
+My background is in enterprise platform modernization: replacing brittle workflows with modern APIs, secure application architectures, data platforms, automated validation, semantic search, and maintainable delivery pipelines. I’m applying that experience increasingly to **financial technology and regulated platforms**, where the engineering standard has to be higher: systems must be explainable, auditable, resilient, and correct.
 
-I’m particularly interested in the engineering challenges behind modern financial technology:
+## What I Work On
 
-* Secure API and platform architecture
-* Financial and operational data systems
-* Identity, authentication and authorization
-* Compliance and validation workflows
-* AI-assisted decision support
-* Legacy-system modernization
-* Data pipelines and archival architecture
-* Reliable automation of high-value business processes
+**Platform & API Architecture**  
+.NET · C# · Python · FastAPI · REST APIs · distributed systems · authentication · authorization
 
-## How I Think About Technology
+**Data & Modernization**  
+SQL · Apache Arrow · Parquet · data migration · archival architecture · vector search · FAISS
+
+**AI & Automation**  
+semantic search · embeddings · workflow automation · AI-assisted operations · human-in-the-loop systems
+
+**Engineering Operations**  
+Azure DevOps · CI/CD · IIS · hybrid infrastructure · cloud migration · production support
+
+## Fintech Focus
+
+I’m especially interested in the engineering behind trustworthy financial platforms:
+
+- ledger and transaction architecture
+- idempotent payment and transfer workflows
+- immutable audit trails
+- reconciliation and exception handling
+- identity, authentication, and authorization
+- compliance and validation orchestration
+- event-driven processing
+- financial data lineage and retention
+- AI-assisted operations with explicit controls and human review
+
+My approach is deliberately architecture-first: understand the domain invariants, make failure modes explicit, design for reconciliation, and only then optimize for convenience or scale.
+
+➡️ **[Read my fintech architecture principles](docs/fintech-architecture-principles.md)**
+
+## How I Think About Modernization
 
 Modernization is rarely a rewrite problem.
 
-The harder challenge is understanding **what should be preserved, what should be automated, and what should be redesigned**.
+The harder problem is deciding **what must be preserved, what should be automated, and what deserves to be redesigned**.
 
-Good architecture reduces friction without losing institutional knowledge. Good automation removes unnecessary work without simply moving complexity somewhere else. And good technology leadership connects technical decisions to measurable business outcomes.
-
-## Current Technical Interests
-
-**Platform Engineering**
-`.NET` · `C#` · `Python` · `FastAPI` · `REST APIs` · `SQL`
-
-**Architecture**
-Distributed systems · API design · authentication · event-driven workflows · service modernization
-
-**Data**
-SQL · Parquet · Apache Arrow · vector search · FAISS · data migration · archival systems
-
-**AI & Automation**
-Semantic search · embeddings · workflow automation · AI-assisted operations
-
-**Infrastructure**
-Azure DevOps · CI/CD · IIS · hybrid infrastructure · cloud migration
-
-## Selected Work
-
-### Financial Platform Architecture
-
-Reference architecture for a modern fintech platform covering transaction flows, identity, ledger boundaries, APIs, auditability and operational controls.
-
-### Compliance Automation
-
-Architecture patterns for orchestrating identity, validation, sanctions screening and exception-handling workflows while maintaining an auditable decision trail.
-
-### Legacy Data Modernization
-
-Patterns for moving historical enterprise data from proprietary platforms into open analytical formats such as Apache Arrow and Parquet.
-
-### Semantic Enterprise Search
-
-Using vector embeddings and structured enterprise data to create natural-language discovery across operational systems.
-
-### Modernization Case Studies
-
-Engineering notes examining the technical **and organizational** realities of replacing legacy processes with modern platforms.
-
----
+Legacy systems often contain years of institutional knowledge. Good modernization extracts that knowledge, makes it explicit, and moves it into systems that are easier to secure, operate, test, and evolve.
 
 ### Engineering principles
 
-**Make systems understandable.**
-Complexity that cannot be explained usually cannot be operated safely.
+**Make systems understandable.**  
+Complexity that cannot be explained is difficult to operate safely.
 
-**Automate deliberately.**
-Automation should improve the system, not merely remove visible human effort.
+**Design for auditability.**  
+In regulated systems, being able to explain what happened is nearly as important as making it happen.
 
-**Preserve valuable knowledge.**
-Legacy systems often contain decades of business logic. Modernization should extract that knowledge rather than discard it.
+**Automate deliberately.**  
+Automation should improve the system, not simply remove visible human effort.
 
-**Design for auditability.**
-Especially in regulated environments, explaining what happened is almost as important as making it happen.
+**Treat data integrity as a product feature.**  
+Correctness, lineage, reconciliation, and recovery should be designed in from the beginning.
+
+**Prefer explicit failure over silent corruption.**  
+Especially in financial systems, a visible exception is often safer than a plausible but incorrect result.
 
 ---
 
-*Building technology that makes complex organizations simpler to operate.*
+*Building technology that makes complex organizations simpler, safer, and easier to operate.*
